@@ -45,7 +45,7 @@ export const careers = [
       "Bachelor's degree in Computer Science, Information Technology, or a related field preferred",
     ],
     // Must match a valid Google Form dropdown option exactly.
-    formPosition: "Frontend Developer",
+    formPosition: "Front-End Developer",
   },
   {
     id: "backend-developer",
@@ -66,7 +66,7 @@ export const careers = [
       "Understanding of authentication, authorization, and security best practices",
       "Bachelor's degree in Computer Science, Information Technology, or a related field preferred",
     ],
-    formPosition: "Backend Developer",
+    formPosition: "Back-End Developer",
   },
 ];
 
