@@ -1,7 +1,7 @@
 // -----------------------------------------------------------------------------
 // Google Form config
 // -----------------------------------------------------------------------------
-// Base viewform URL (no query string).
+// Base viewform URL .
 export const GOOGLE_FORM_BASE =
   "https://docs.google.com/forms/d/e/1FAIpQLScx1aLyGXK6pd8rZnM0HaxkpUKN5tR4AzndNqovan5aKj183g/viewform";
 
@@ -12,12 +12,6 @@ export const POSITION_ENTRY_ID = "entry.73458788";
  * Builds a prefilled Google Form link for a given position value.
  * The value passed in MUST exactly match one of the dropdown's option
  * labels in the form, otherwise the dropdown will show blank/unselected.
- *
- * Valid position values in the live form are:
- *   "Frontend Developer"
- *   "Backend Developer"
- *   "Intern (OJT)"
- *   "Business Analyst"
  */
 export function buildApplyLink(position) {
   const params = new URLSearchParams({
@@ -79,9 +73,6 @@ export const careers = [
 // -----------------------------------------------------------------------------
 // Internship (OJT) roles
 // -----------------------------------------------------------------------------
-// Note: the live Google Form only has a single "Intern (OJT)" option in the
-// Position dropdown (it isn't broken out per track), so every internship
-// card below prefills the same value.
 const INTERN_FORM_POSITION = "Intern (OJT)";
 
 export const internships = [
